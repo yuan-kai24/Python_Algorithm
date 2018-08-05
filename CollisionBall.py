@@ -24,7 +24,7 @@ def main():
             ballpos[item] = int(ballpos[item]) + ballmove[item]
         isMove()
         count = count + 1
+    print(" ".join([str(item) for item in ballpos]))
 
 
 main()
-print(" ".join([str(item) for item in ballpos]))
