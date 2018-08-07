@@ -6,12 +6,12 @@ ballmove = []  # 移动方向
 
 
 def isMove():
-    for item in range(0, len(ballpos)):
-        if int(ballpos[item]) == int(ballinfo[1]) or int(ballpos[item]) == 0:
-            ballmove[item] = -ballmove[item]
-        for ite in range(item, len(ballpos)):
-            if item != ite and int(ballpos[item]) == int(ballpos[ite]):
-                ballmove[item] = -ballmove[item]
+    for itemi in range(0, len(ballpos)):
+        if int(ballpos[itemi]) == int(ballinfo[1]) or int(ballpos[itemi]) == 0:
+            ballmove[itemi] = -ballmove[itemi]
+        for ite in range(itemi, len(ballpos)):
+            if itemi != ite and int(ballpos[itemi]) == int(ballpos[ite]):
+                ballmove[itemi] = -ballmove[itemi]
                 ballmove[ite] = -ballmove[ite]
 
 
@@ -24,7 +24,7 @@ def main():
             ballpos[item] = int(ballpos[item]) + ballmove[item]
         isMove()
         count = count + 1
-    print(" ".join([str(item) for item in ballpos]))
+    print(" ".join([str(item) for item in ballpos]), end="")
 
 
 main()
