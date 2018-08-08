@@ -40,6 +40,8 @@ def win(val):  # 判断胜负
         fenshu = findspa(val, val[0][2])
     if not '0' in val[0] and not '0' in val[1] and not '0' in val[2]:  # end
         return 0
+    if '0' in val[0] and '0' in val[1] and '0' in val[2]:  # emmmm
+        return 0
     return fenshu
 
 
