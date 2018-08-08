@@ -68,9 +68,9 @@ def dp(val, count):
 
 def main():
     init()
-    start = time.clock()
+    # start = time.clock()
     for item in range(0, usercount):  # 棋局分配
         print(dp(chess[item], 1))
-    end = time.clock()
-    print(end-start)
+    # end = time.clock()
+    # print(end-start)
 main()
