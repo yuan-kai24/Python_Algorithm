@@ -1,3 +1,5 @@
+import time
+
 usercount = int(input())  # 用户输入
 chess = []  # 棋局存储
 
@@ -40,7 +42,7 @@ def win(val):  # 判断胜负
         fenshu = findspa(val, val[0][2])
     if not '0' in val[0] and not '0' in val[1] and not '0' in val[2]:  # end
         return 0
-    if '0' in val[0] and '0' in val[1] and '0' in val[2]:  # emmmm
+    if ['0', '0', '0'] == val[0] == val[1] == val[2]:  # emmmm
         return 0
     return fenshu
 
@@ -66,7 +68,9 @@ def dp(val, count):
 
 def main():
     init()
+    start = time.clock()
     for item in range(0, usercount):  # 棋局分配
         print(dp(chess[item], 1))
-
+    end = time.clock()
+    print(end-start)
 main()
