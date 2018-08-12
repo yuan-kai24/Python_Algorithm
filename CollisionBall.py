@@ -1,7 +1,7 @@
 ballinfo = input()  # 第一行输入
 ballpos = input()  # 第二行
-ballinfo = ballinfo.split(" ")  # 拆分
-ballpos = ballpos.split(" ")
+ballinfo = ballinfo.split()  # 拆分
+ballpos = ballpos.split()
 ballmove = []  # 移动方向
 
 
