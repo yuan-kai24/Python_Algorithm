@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f87ba10c-812e-481d-aaa7-3b27c19c991f" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/chazhi.py" afterPath="$PROJECT_DIR$/MinimumDifference.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PlayGame.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MinimumDifference.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MinimumDifference.py">
+      <file leaf-file-name="PlayGame.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PlayGame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="224">
+              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -56,6 +57,7 @@
         <option value="$PROJECT_DIR$/ChessAssessment.py" />
         <option value="$PROJECT_DIR$/ImageRotation.py" />
         <option value="$PROJECT_DIR$/chazhi.py" />
+        <option value="$PROJECT_DIR$/PlayGame.py" />
       </list>
     </option>
   </component>
@@ -112,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.chazhi">
+  <component name="RunManager" selected="Python.PlayGame">
     <configuration name="CollisionBall" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,6 +166,23 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="PlayGame" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Exercise" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PlayGame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="chazhi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,37 +200,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Exercise" />
-      <option name="SCRIPT_NAME" value="F:\PythonClass\Exercise\ImageRotation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.CollisionBall" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Jump (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ImageRotation" />
-      <item index="4" class="java.lang.String" itemvalue="Python.chazhi" />
+      <item index="0" class="java.lang.String" itemvalue="Python.CollisionBall" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Jump (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ImageRotation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.chazhi" />
+      <item index="4" class="java.lang.String" itemvalue="Python.PlayGame" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.chazhi" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ImageRotation" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Jump (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.CollisionBall" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.PlayGame" />
+        <item index="1" class="java.lang.String" itemvalue="Python.chazhi" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ImageRotation" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Jump (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.CollisionBall" />
       </list>
     </recent_temporary>
   </component>
@@ -552,6 +554,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlayGame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding />
         </state>
       </provider>
