@@ -7,12 +7,12 @@ ballmove = []  # 移动方向
 
 def isMoves():
     for itemi in range(0, len(ballpos)):
-        if int(ballpos[itemi]) == int(ballinfo[1]) or int(ballpos[itemi]) == 0:
-            ballmove[itemi] = -ballmove[itemi]
+        if int(ballpos[itemi]) == int(ballinfo[1]) or int(ballpos[itemi]) == 0:# 球的边界判断
+            ballmove[itemi] = -ballmove[itemi]# 反向
         for ite in range(itemi, len(ballpos)):
-            if itemi != ite and int(ballpos[itemi]) == int(ballpos[ite]):
+            if itemi != ite and int(ballpos[itemi]) == int(ballpos[ite]):# 判断球相撞
                 ballmove[itemi] = -ballmove[itemi]
-                ballmove[ite] = -ballmove[ite]
+                ballmove[ite] = -ballmove[ite]# 反向
 
 
 def main():
@@ -22,9 +22,9 @@ def main():
         c = c+1
     count = 0
     while count < int(ballinfo[2]):
-        for item in range(0, len(ballpos)):
+        for item in range(0, len(ballpos)):# 球移动次数
             ballpos[item] = int(ballpos[item]) + ballmove[item]
-        isMoves()
+        isMoves()# 判断是否反向
         count = count + 1
     print(" ".join([str(item) for item in ballpos]))
 
