@@ -18,7 +18,7 @@ while count < userInfo[0]:# 如果淘汰次数达到极限则退出
             num[index] = False
             count = count + 1
     index = index + 1# 寻找下一个小朋友
-    if index == userInfo[0]:
+    if index == userInfo[0]:# index置零条件
         index = 0
 
 for item in range(0, userInfo[0]):
