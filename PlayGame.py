@@ -14,7 +14,7 @@ for item in range(0, userInfo[0]):
 while count < userInfo[0]:# 如果淘汰次数达到极限则退出
     if num[index]:# 如果没被淘汰则进入，执行内部数数操作
         numx = numx + 1
-        if numx % userInfo[1] == 0:# 判断当前数数是否符合条件
+        if (numx % 10) == userInfo[1] or numx % userInfo[1] == 0:# 判断当前数数是否符合条件
             num[index] = False
             count = count + 1
     index = index + 1# 寻找下一个小朋友
