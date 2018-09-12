@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f87ba10c-812e-481d-aaa7-3b27c19c991f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Exercise.iml" afterPath="$PROJECT_DIR$/.idea/Exercise.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageRotation.py" afterPath="$PROJECT_DIR$/ImageRotation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chazhi.py" afterPath="$PROJECT_DIR$/chazhi.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ImageRotation.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ImageRotation.py">
+      <file leaf-file-name="chazhi.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chazhi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -56,6 +58,7 @@
         <option value="$PROJECT_DIR$/CollisionBall.py" />
         <option value="$PROJECT_DIR$/ChessAssessment.py" />
         <option value="$PROJECT_DIR$/ImageRotation.py" />
+        <option value="$PROJECT_DIR$/chazhi.py" />
       </list>
     </option>
   </component>
@@ -98,7 +101,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -112,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ImageRotation">
+  <component name="RunManager" selected="Python.chazhi">
     <configuration name="CollisionBall" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,7 +167,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Jump" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="chazhi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -176,7 +179,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Exercise" />
-      <option name="SCRIPT_NAME" value="F:\PythonClass\Exercise\Jump.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chazhi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,19 +202,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Jump" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.CollisionBall" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Jump (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ImageRotation" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.CollisionBall" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Jump (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ImageRotation" />
+      <item index="4" class="java.lang.String" itemvalue="Python.chazhi" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ImageRotation" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Jump (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.CollisionBall" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Jump" />
+        <item index="0" class="java.lang.String" itemvalue="Python.chazhi" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ImageRotation" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Jump (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.CollisionBall" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +286,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
+          <folding>
+            <marker date="1536740060462" expanded="true" signature="185:305" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -538,8 +543,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ImageRotation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <marker date="1536740060462" expanded="true" signature="185:305" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chazhi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="10" />
           <folding />
         </state>
       </provider>
