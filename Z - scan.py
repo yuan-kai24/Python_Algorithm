@@ -23,7 +23,6 @@ for item in range(0, count*2):# 斜面执行2n-1次
         if (num%2) == 0:
             coor[0] = count - 1
             coor[1] = count - (num + 1)
-
         else:
             coor[0] = count - (num + 1)
             coor[1] = count - 1
@@ -34,7 +33,8 @@ for item in range(0, count*2):# 斜面执行2n-1次
     else:
         coorx[0] = 1
         coorx[1] = -1
-    for ite in range(0, num + 1):
+
+    for ite in range(0, num + 1):# 斜线的个数
         print(userInfo[coor[0]][coor[1]], end=" ")
         coor[0] = coor[0] + coorx[0]# 路线
         coor[1] = coor[1] + coorx[1]
